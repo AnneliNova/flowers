@@ -1,0 +1,196 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background: #A9BFE4;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+
+} */
+.navigation {
+   display: inline-block;
+   width: 100%;
+   height: 250px;
+   position: relative;
+}
+
+.navigation__logo {
+    background-image: url('..style/imsges/logo.png');
+    position: absolute;
+    width: 136.48px;
+    height: 55px;
+    left: 64px;
+    top: 8px;
+  }
+
+.bascket {
+  position: relative;
+}
+
+.navigation__lupa,
+.navigation__bascket {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  top: 5%;
+}
+.navigation__lupa {
+  left: 70%;
+}
+.navigation__bascket {
+  left: 80%;
+}
+
+
+
+{
+    "image": "https://i.ibb.co/qk3WZzd/bouquet-cart1.png",
+    "name": "Ніжна свіжість",
+    "flovers": "троянди та лілії",
+    "price": 445
+  },
+  {
+    "image": "https://i.ibb.co/kSqMtYg/bouquet-cart2.png",
+    "name": "Сорбет",
+    "flovers": "хризантеми та троянди",
+    "price": 450
+  },
+  {
+    "image": "https://i.ibb.co/P9mTcQT/bouquet-cart3.png",
+    "name": "Yellow song",
+    "flovers": "соняшники та солідаго",
+    "price": 455
+  },
+  {
+    "image": "https://i.ibb.co/M8NL0gT/bouquet-cart4.png",
+    "name": "Персиковий нектар",
+    "flovers": "лілії та троянди",
+    "price": 455
+  },
+  {
+    "image": "https://i.ibb.co/LYMJ9mc/bouquet-cart5.png",
+    "name": "Аврора",
+    "flovers": "лілії та троянди",
+    "price": 460
+  },
+  {
+    "image": "https://i.ibb.co/Y7jdbq5/bouquet-cart6.png",
+    "name": "Класика кохання",
+    "flovers": "червоні троянди",
+    "price": 465
+  }
+ 
+
+.navigation__lupa {
+  background-image: url('..style/imsges/lupa.png');
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 640px;
+  top: 30px;
+}
+.navigation__bascket {
+  background-image: url('..style/imsges/bascket.png');
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 675px;
+  top: 30px;
+}
+.navigation {
+  position: absolute;
+  width: 760px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #A9BFE4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navigation__label{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  width: 333px;
+  height: 20px;
+  left: 258px;
+  top: 30px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.header__content{
+  background-color: white;
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 760px;
+  height: 455px;
+  left: 0px;
+  top: 70px;
+  border-width: 35px 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+.about__content {
+  position: absolute;
+  width: 760px;
+  height: 405px;
+  left: 0px;
+  top: 525px;
+}
+
+.work {
+  position: absolute;
+  width: 760px;
+  height: 156px;
+  left: 0px;
+  top: 930px;
+}
+.catalog {
+  position: absolute;
+  width: 760px;
+  height: 864px;
+  left: 0px;
+  top: 1086px;
+}
+.comment {
+  position: absolute;
+  width: 760px;
+  height: 690px;
+  left: 1px;
+  top: 1950px;
+  background: rgba(169, 191, 228, 0.2);
+}
+.delivery {
+  position: absolute;
+  width: 760px;
+  height: 470px;
+  left: 1px;
+  top: 2640px;
+}
+.footer {
+  position: absolute;
+  width: 760px;
+  height: 185px;
+  left: 1px;
+  top: 3110px;
+  background: #A9BFE4;
+}
